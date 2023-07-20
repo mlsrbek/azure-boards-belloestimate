@@ -71,6 +71,8 @@ class WorkItemView extends React.Component<IWorkItemProps & typeof Actions> {
                 return estimates[0].cardIdentifier
             }
         }
+
+        const [value, setValue] = React.useState<string | null>(null);
       
 
         return (
@@ -105,6 +107,18 @@ class WorkItemView extends React.Component<IWorkItemProps & typeof Actions> {
                                                 )}
                                             </div>
                                         )}
+                                </div>
+
+                                <div className="flex-row">
+                                    <input
+                                        className="custom-values-input"
+                                        onChange={(e) => setValue(e.target.value)}
+                                    />
+                                    <Button
+                                        className="custom-values-input"
+                                        onClick={() => console.log(value)}
+                                    >  Save test
+                                    </Button>
                                 </div>
 
                                 <SubTitle>All votes   {estimates ? estimates.length : 0}/{users.length}</SubTitle>
