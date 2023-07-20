@@ -17,6 +17,7 @@ import { IWorkItem } from "../../../model/workitem";
 import { IState } from "../../../reducer";
 import { commitEstimate, estimate, reveal } from "../sessionActions";
 import { CustomEstimate } from "./customEstimate";
+import "./customEstimate.scss"
 import "./workItemView.scss";
 import { canPerformAdminActions } from "../selector";
 import { IUserInfo } from "../../../model/user";
