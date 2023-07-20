@@ -7,8 +7,8 @@
         "vso.work_write"
     ],
     "description": "",
-    "publisher": "cschleiden",
-    "id": "estimate",
+    "publisher": "b9eccb91-3159-481c-846f-5d2cfa5ccbc1",
+    "id": "bello-tasks-estimation",
     "icons": {
         "default": "marketplace/logo.png"
     },
@@ -30,7 +30,7 @@
     },
     "links": {
         "support": {
-            "uri": "mailto:christopher.schleiden@microsoft.com"
+            "uri": "mailto:michelle.lopes@bellosoft.com"
         }
     },
     "branding": {

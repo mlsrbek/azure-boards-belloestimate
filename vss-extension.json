@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1,
-    "id": "estimate",
-    "version": "2.3.0",
-    "name": "Estimate",
+    "id": "bello-tasks-estimation",
+    "version": "0.1.16",
+    "name": "BelloEstimate Pert",
     "description": "Planning Poker in Azure Boards.",
-    "publisher": "ms-devlabs",
+    "publisher": "b9eccb91-3159-481c-846f-5d2cfa5ccbc1",
     "scopes": ["vso.project", "vso.work", "vso.work_write"],
     "targets": [
         {
@@ -28,11 +28,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/microsoft/azure-boards-estimate"
+        "url": "https://github.com/mlsrbek/azure-boards-belloestimate"
     },
     "links": {
         "support": {
-            "url": "https://github.com/microsoft/azure-boards-estimate/#support"
+            "url": "https://github.com/mlsrbek/azure-boards-belloestimate/#support"
         }
     },
     "branding": {
@@ -52,7 +52,7 @@
     ],
     "contributions": [
         {
-            "id": "estimate-hub",
+            "id": "bello-tasks-estimation",
             "type": "ms.vss-web.hub",
             "targets": ["ms.vss-work-web.work-hub-group"],
             "properties": {
@@ -66,7 +66,7 @@
             }
         },
         {
-            "id": "estimate-context-menu-action",
+            "id": "bello-tasks-estimation-action",
             "type": "ms.vss-web.action",
             "targets": [
                 "ms.vss-work-web.backlog-item-menu",
@@ -77,7 +77,7 @@
                 "title": "Start estimation session",
                 "group": "actions",
                 "uri": "build/index.html?context",
-                "registeredObjectId": "estimate-context-menu"
+                "registeredObjectId": "bello-tasks-estimation-context-menu"
             }
         }
     ]
