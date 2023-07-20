@@ -93,7 +93,7 @@ class WorkItemView extends React.Component<IWorkItemProps & typeof Actions> {
                                     estimate={selectedWorkItem.estimate}
                                 />
 
-                                <SubTitle>Your vote </SubTitle>
+                                <SubTitle>Your vote test </SubTitle>
                                 <div className="card-container">
                                     {cardSet &&
                                         cardSet.cards.map(card =>
@@ -241,6 +241,8 @@ class WorkItemView extends React.Component<IWorkItemProps & typeof Actions> {
             selectedWorkItem,
             selectedCardId
         } = this.props;
+
+        console.log('estimate', this.props)
 
         if (card.identifier === selectedCardId) {
             // Cancel vote
