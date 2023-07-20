@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "bello-tasks-estimation",
-    "version": "0.1.19",
+    "version": "0.1.20",
     "name": "BelloEstimate Pert",
     "description": "Planning Poker in Azure Boards.",
     "publisher": "b9eccb91-3159-481c-846f-5d2cfa5ccbc1",
